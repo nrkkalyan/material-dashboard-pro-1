@@ -6,9 +6,18 @@
  * Made By MaterializeCSS.com
  */
 body{
+
 	background: url("../assets/img/login.jpg") no-repeat bottom left;
+	position: relative;
 }
 
+.filter{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.35);
+}
 /*------------------LOGIN PAGE/*------------------*/
 
 .nav-transparent{
@@ -25,7 +34,6 @@ a.button-collapse.top-nav i {
 
 .footer{
 	background: none ;
-	margin-bottom: 1em;
 }
 
 .footer-menu{
@@ -45,10 +53,13 @@ a.button-collapse.top-nav i {
 	color: white;
 }
 
+.container-login, .footer-copyright{
+	position: relative;
+}
 
 /*login form*/
 #card-login{
-	margin-top: 5em;
+	margin-top: 6em;
 	margin-bottom: 5em;
 }
 
