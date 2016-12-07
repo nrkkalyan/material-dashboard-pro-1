@@ -5,11 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-body{
 
-	background: url("../assets/img/login.jpg") no-repeat bottom left;
-	position: relative;
-}
 
 .filter{
 	position: absolute;
@@ -60,7 +56,7 @@ a.button-collapse.top-nav i {
 /*login form*/
 #card-login{
 	margin-top: 6em;
-	margin-bottom: 5em;
+	margin-bottom: 7em;
 }
 
 .card-header{
@@ -92,3 +88,40 @@ a.button-collapse.top-nav i {
 }
 
 /*------------------END LOGIN PAGE/*------------------*/
+
+
+
+/*DASHBOARD*/
+
+.nav-dashboard{
+	background: none;
+	box-shadow: none;
+}
+
+.nav-dashboard ul li a, .nav-dashboard a, .nav-dashboard li{
+	color: #616161;
+}
+.container-dashboard{
+	background: red;
+}
+
+.btn-more{
+	margin-left: 2em;
+}
+
+#logo-dashboard{
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+
+/*SideNav*/
+.side-nav{
+	width: 240px;
+}
+
+
+@media (max-width: 600px) {
+	.btn-more{
+	margin-left: 0em;
+	}
+}
