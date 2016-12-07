@@ -5,43 +5,26 @@
  *
  * Made By MaterializeCSS.com
  */
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
+body{
+	background: url("../assets/img/login.jpg") no-repeat bottom left;
 }
 
+/*LOGIN PAGE*/
 
-/*Page Login CSS*/
-#login__header{
-	background-color: #2196f3;
-	height: 15em;
+.container-login{
+	height: 700px;
 }
-#login__content{
-	background-color: #e7ebf0;
-
+.nav-transparent{
+	background: none;
+	box-shadow: none;
 }
-#login__form{
-	margin-top: -5em;
-	padding: 0em 2em 0em 2em;
-	margin-bottom: 6em;
+#logo-container{
+	font-size: 1.2em;
 }
 
-
-/*Formulario de Login*/
-.login__form__title{
-	font-size: 15px;
-	margin-left: 1em;
+a.button-collapse.top-nav i {
+    font-size: 32px;
 }
-
-.login__form__description{
-	font-size: 13px;
-	margin-left: 1em;
-	color: grey;
-}
-
 
 header, main, footer {
   padding-left: 300px;
@@ -52,5 +35,4 @@ header, main, footer {
     padding-left: 0;
   }
 }
-       
-       
+     
