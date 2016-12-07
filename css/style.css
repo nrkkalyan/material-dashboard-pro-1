@@ -12,7 +12,7 @@ body{
 /*LOGIN PAGE*/
 
 .container-login{
-	height: 700px;
+	height: 480px;
 }
 .nav-transparent{
 	background: none;
@@ -26,13 +26,36 @@ a.button-collapse.top-nav i {
     font-size: 32px;
 }
 
-header, main, footer {
-  padding-left: 300px;
+.footer{
+	background: none ;
+	margin-bottom: 1em;
 }
 
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
+.footer-menu{
+	text-align: left;
 }
-     
+
+.footer-copyright{
+	text-align: right;
+}
+
+.footer .footer-menu  ul li a{
+	text-decoration: none;
+	color: white;
+	margin-left: 1.5em;
+}
+.footer .footer-copyright  .text-copyright{
+	color: white;
+}
+
+
+
+@media (max-width: 600px) {
+	.footer-menu{
+		text-align: center;
+	}
+
+	.footer-copyright{
+		text-align: center;
+	}
+}
